@@ -3,8 +3,8 @@ from token import Token
 from tokentype import *
 
 class Lexer:
-    #Constructor 
 
+    #Constructor 
     def __init__(self, input):
         self.source=input
         self.curChar = ''
@@ -37,7 +37,8 @@ class Lexer:
     #Saltar comentario
     def skipComment(self):
         if self.curChar == '#':
-            self.nextChar()
+            while self.curChar != "\n":
+                self.nextChar()
     
     #Obtiene el token siguiente
     def getToken(self):
