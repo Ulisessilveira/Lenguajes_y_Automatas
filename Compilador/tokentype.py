@@ -102,10 +102,10 @@ class TokenType(enum.Enum):
     CON = 181
     PARA = 182
 
-    HACERLOS = 183
+    HACER = 183
     CONVERTIR = 184
 
-    RESCENDO = 185
+    CRESCENDO = 185
     DECRESCENDO = 186
     PPP = 187
     PP = 188

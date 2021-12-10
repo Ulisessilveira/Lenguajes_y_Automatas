@@ -1,7 +1,6 @@
 #Comentario
-    IF+-<>13241654algo*THEN
     do re mi fa sol la si do
-    DECLARA pipo COMO CANCION
+    DECLARA "pipo" COMO CANCION
     EL TEMPO = 112
     pipo ESTA EN CLAVESOL
     pipo ESTA EN CUATROCUARTOS
@@ -10,5 +9,5 @@
     ELIMINAR pipo
     HACER EL sol = SOSTENIDO
     INSERTAR UN la GRAVE CON ACENTO
-    INSERTAR UN si ppp
+    INSERTAR UN si PPP
 EJECUTAR CANCION
